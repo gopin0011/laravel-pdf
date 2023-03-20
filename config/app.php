@@ -180,6 +180,8 @@ return [
         // Log
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
 
+        // pdf
+        Barryvdh\DomPDF\ServiceProvider::class,
     ],
 
     /*
@@ -235,6 +237,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        // pdf
+        'PDF' => Barryvdh\DomPDF\Facade::class,
     ],
 
 ];
